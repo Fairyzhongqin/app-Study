@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///C:/Users/657838057/Desktop/app-Study/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,kG;AACAA,UAAU,CAACC,cAAD,CAAV,C","file":"pages/style/index/index.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/style/index/index.vue'\ncreatePage(Page)"],"sourceRoot":""}

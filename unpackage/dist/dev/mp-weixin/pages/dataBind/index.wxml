@@ -1,0 +1,1 @@
+<view><view>没关系 下一个会更好</view><view>{{msg}}</view><view>{{flag?'青青子衿':"悠悠我心"}}</view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id"><view>{{'序号：'+index+",姓名:"+item.name+",年龄:"+item.age+''}}</view></block><button size="mini" type="primary" data-event-opts="{{[['tap',[['handle',['$event']]]]]}}" bindtap="__e">我是正义的按钮</button></view>

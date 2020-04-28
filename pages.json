@@ -1,5 +1,14 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [ 
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{"path":"pages/list/index",
+		 "style":{
+			 "enablePullDownRefresh":true,
+			 "onReachBottomDistance":300
+		 }},
+		{
+			"path":"pages/dataBind/index"
+		},
 		{
 			"path": "pages/message/index",
 			"style": {
@@ -22,6 +31,14 @@
 			"style": {
 				"navigationBarTitleText": "联系我们"
 			}
+		},	
+		{
+			"path":"pages/detail/index",
+			"style":{
+				"navigationBarTitleText":"商品详情"
+			}
+		},{
+			"path":"pages/style/index"
 		}
 	],
 	"globalStyle": {
@@ -29,8 +46,8 @@
 		"navigationBarTitleText": "做最美的自己", //导航栏标题文字内容	
 		"navigationBarBackgroundColor": "#98FB98",//导航栏背景颜色
 		"backgroundColor": "#F8F8F8",//下拉显示出来的窗口的背景色	
-		"backgroundTextStyle": "light",//下拉 loading 的样式，仅支持 dark / light	
-		"enablePullDownRefresh": true
+		"backgroundTextStyle": "light"//下拉 loading 的样式，仅支持 dark / light	
+		// "enablePullDownRefresh": true
 		
 	},
 	"tabBar":{
@@ -41,7 +58,7 @@
 		"position":"top",//top仅在小程序可以
 		"list":[{
 			"text":"首页",
-			"pagePath":"pages/index/index",
+			"pagePath":"pages/dataBind/index",
 			"iconPath":"",
 			"selectedIconPath":""
 			
@@ -65,7 +82,11 @@
 	            "name": "详情页", //模式名称
 	            "path": "pages/detail/index", //启动页面，必选
 	            "query": "id=66" //启动参数，在页面的onLoad函数里面得到。
-	        }
+	        },{
+				"name" :"样式页",
+				"path":"pages/style/index",
+				"query":"id=99"
+			}
 	     
 	    ]
 	}

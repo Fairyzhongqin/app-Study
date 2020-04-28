@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/list/index",
+    "pages/dataBind/index",
+    "pages/message/index",
+    "pages/index/index",
+    "pages/contact/index",
+    "pages/detail/index",
+    "pages/style/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "做最美的自己",
+    "navigationBarBackgroundColor": "#98FB98",
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#DD524D",
+    "backgroundColor": "#F0AD4E",
+    "borderStyle": "black",
+    "position": "top",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/dataBind/index",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "text": "信息",
+        "pagePath": "pages/message/index",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "text": "我们",
+        "pagePath": "pages/contact/index",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "usingComponents": {}
+}

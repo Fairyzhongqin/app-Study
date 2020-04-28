@@ -1,0 +1,12 @@
+view {
+	font-size: 15rpx;
+	color:yellow;
+}
+.two {
+	height: 750rpx;
+	width: 375rpx;
+	background-color: red;
+	color:#fff;
+	font-size: 35rpx;
+}
+
